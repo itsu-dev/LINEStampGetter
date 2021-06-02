@@ -20,7 +20,7 @@ fun main() {
         if (it.isDirectory) explore(it, targetDir)
     }
 
-    println("Successfully exportes ${index + 1} stamps.")
+    println("Successfully exported ${index + 1} stamps.")
 }
 
 var index = 0
